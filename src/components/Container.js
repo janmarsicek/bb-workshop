@@ -6,7 +6,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
 type ContainerProps = {
-  children: React$Element,
+  children: React.Node,
   style: Object | Array<Object>,
   noHorizontalPadding: boolean,
 }
